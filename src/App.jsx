@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { auth } from './config/firebase';
 import { onAuthStateChanged, signOut } from 'firebase/auth'
 
-import SignIn from './Components/SingIn';
-import SignUp from './Components/SignUp';
-import ChatRoomList from './Components/ChatRoomList';
-import ChatRoom from './Components/ChatRoom';
-import Error404 from './Components/Error404';
+import SignIn from './components/SingIn';
+import SignUp from './components/SignUp';
+import ChatRoomList from './components/ChatRoomList';
+import ChatRoom from './components/ChatRoom';
+import Error404 from './components/Error404';
 
 function App() {
   // State variables to store user information and loading status
